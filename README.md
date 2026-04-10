@@ -83,4 +83,3 @@ http://localhost:8000
 
 - This project uses **Vanilla PHP**, not Laravel.
 - If Redis is installed and enabled, the calendar page uses caching for faster repeated loading.
-- To flush the Redis cache, visit: `http://localhost:8000/calendar.php?flush=1`
