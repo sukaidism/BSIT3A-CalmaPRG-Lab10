@@ -80,6 +80,4 @@ http://localhost:8000
 ---
 
 ## Notes
-
-- This project uses **Vanilla PHP**, not Laravel.
 - If Redis is installed and enabled, the calendar page uses caching for faster repeated loading.
