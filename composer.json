@@ -1,0 +1,22 @@
+{
+    "name": "impau/bsit3a-calmaprg-lab10",
+    "description": "Vanilla PHP admin dashboard boilerplate for the BSIT3A Calma lab activity.",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "nesbot/carbon": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t ."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
